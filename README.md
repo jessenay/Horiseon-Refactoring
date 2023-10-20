@@ -6,7 +6,7 @@
 none
 
 ## Usage 
-Reading and researching the information found on this study guide is proper use
+Reading and researching the information found on this web page is proper use
 
 ## Credits 
 none
