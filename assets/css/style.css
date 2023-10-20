@@ -1,29 +1,35 @@
+/* This sets the boxes size and orientation of all boxes
+on the web page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* This sets the background color of the body*/
 body {
     background-color: #d9dcd6;
 }
-
+/* This adds padding, font family, background color
+and text color to the header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* This determines how the header links will appear in
+the header and sets the font size*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* This sets the color of the "seo" in the header to 
+a different color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* This adds padding, margin, and location to the nav 
+links in the header. It also sets a font family and font size*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,46 +37,49 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+ /* This aligns the links in the header and adds a left margin*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Changes the text color of the nav links in header*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Sets the font-size for the text in the paragraphs*/
 p {
     font-size: 16px;
 }
-
+/* Sets the size and positioning of the image under
+the header*/
 .hero {
-    height: 800px;
+   height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("./images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
-
+/* aligns the text next to the pictures in the main section*/
 .float-left {
     float: left;
-    margin-right: 25px;
+   margin-right: 25px;
 }
-
+/* aligns the text next to the pictures in the main section*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* sets the width and display of the blue boxes containing
+the information in the main section of page*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* sets a margin, padding, size, and location of the aside box.
+also adds a font family and backround color to this section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -81,18 +90,20 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* adds a margin and text color to the text in the aside section*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* sets the displays, margins, and width to the images in the aside section*/
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* sets a margin, padding, and height to the text inside
+of the main section. Also adds a font family, background color
+and text color to those sections*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -101,23 +112,24 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sets a max height for the images in the main section*/
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
-
+/* creates a margin and sets a font size of the headings in the main section*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* adds a padding and font family to the text in the footer 
+and aligns the text within the footer*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* adds a different font size to the Heading within the footer*/
 .footer h4 {
     font-size: 20px;
 }
